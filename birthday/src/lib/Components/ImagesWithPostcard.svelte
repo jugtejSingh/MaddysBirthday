@@ -14,8 +14,10 @@
             <div class="back">
                 <img src={source.source2} alt="" class="backImage" />
                 <p>{source.text}</p>
+              <div class="bottom">
                 <h4>With Love</h4>
                 <h3>{source.name}</h3>
+              </div>
             </div>
         </div>
     {:else}
@@ -32,6 +34,11 @@
         width: 100%;
         perspective: 800px;
     }
+    .bottom{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
     .container:hover > .card {
         cursor: pointer;
         transform: rotateY(180deg);
@@ -47,6 +54,8 @@
         position: relative;
     }
     .backImage {
+      margin-top: 3%;
+      margin-left: 3%;
         width: 20%;
     }
     .front,
@@ -63,11 +72,9 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #3a3a3a;
+        background-color: beige;
         transform: rotateY(180deg);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 </style>
