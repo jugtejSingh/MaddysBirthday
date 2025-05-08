@@ -1,6 +1,7 @@
 <script lang="ts">
     let { source } = $props()
     let Postcard: HTMLElement
+    console.log(source)
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
@@ -30,6 +31,12 @@
 </div>
 
 <style>
+  .back p{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-y: auto;
+  }
     .container {
         width: 100%;
         perspective: 800px;
@@ -37,7 +44,8 @@
     .bottom{
       display: flex;
       flex-direction: column;
-      align-content: center;
+      text-align: right;
+      margin-right: 10%;
     }
     .container:hover > .card {
         cursor: pointer;
@@ -72,7 +80,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: beige;
+        background-color: rgb(255,255,250);
         transform: rotateY(180deg);
         display: flex;
         flex-direction: column;

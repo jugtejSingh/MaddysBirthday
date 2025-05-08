@@ -9,26 +9,27 @@
   const myArray:string[] = $derived(columnInGrids.split(" "));
   let numberOfImages: number = $derived(myArray.length)
 
+  let count = 0
+  let sourcesValue :number = 0
+  let array: string[][] = [];
   let array2 = $derived.by(() => {
-    let array: string[][] = [];
     for (let i = 0; i < numberOfImages; i++){
       array.push([])
     }
-    let count = 0
-    let sourcesValue :number = 0
-    while(sources){
-      if (sourcesValue === sources.length){
-        break
+      while(sources){
+        if (sourcesValue === sources.length){
+          break
+        }
+        if (count === numberOfImages) {
+          count = 0
+        }
+        array[count].push(sources[sourcesValue])
+        sourcesValue++
+        count++
       }
-      if (count === numberOfImages) {
-        count = 0
-      }
-      array[count].push(sources[sourcesValue])
-      sourcesValue++
-      count++
-    }
-    return array
-  })
+      return array
+
+    })
 
 </script>
 <div class="Masonary" style:grid-template-columns={columnInGrids} style:gap={gap} >

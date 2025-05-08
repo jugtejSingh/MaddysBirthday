@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { width, angle, colorOfRibbon, backgroundR, backgroundG, backgroundB } =
+    let { width, angle, colorOfRibbon, backgroundR, backgroundG, backgroundB, video } =
         $props()
     let videoElement: HTMLVideoElement
     async function playVideo() {
@@ -26,7 +26,7 @@
     onblur={() => pauseVideo()}
     role="article">
     <video controls bind:this={videoElement}>
-        <source src="/video/cocoa-tea.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
         <track kind="captions" label="English" src="" srclang="en" />
     </video>
     <div

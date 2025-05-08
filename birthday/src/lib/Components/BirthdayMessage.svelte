@@ -12,15 +12,19 @@
 </script>
 
 <div class="BirthdayMessage">
-  <Text source="/images/text/text1.png" --width="25%" --left="10%" --top="10%" --degree="-90deg"/>
-  <Text source="/images/text/text2.png" --width="25%" --left="20%" --top="10%"/>
-  <Text source="/images/text/text3.png" --width="25%" --left="50%" --top="10%"/>
-  <Text source="/images/text/text4.png" --width="30%" --left="10%" --top="40%"/>
-  <Text source="/images/text/text5.png" --width="25%" --left="70%" --top="70%"/>
-  <Text source="/images/text/text6.png" --width="25%" --left="0%" --top="60%"/>
-  <Text source="/images/text/text7.png" --width="25%" --left="70%" --top="40%"/>
-  <Text source="/images/text/text8.png" --width="25%" --left="30%" --top="50%"/>
-  <Text source="/images/text/text9.png" --width="25%" --left="75%" --top="20%"/>
+  <Text source="/images/text/text1.png" --width="25%" --left="3%" --top="50%" --degree="-90deg"/>
+  <Text source="/images/text/text2.png" --width="25%" --left="4%" --top="40%"/>
+  <Text source="/images/text/text3.png" --width="25%" --left="5%" --top="20%"/>
+  <Text source="/images/text/text4.png" --width="30%" --left="20%" --top="5%"/>
+  <Text source="/images/text/text5.png" --width="25%" --left="40%" --top="5%"/>
+  <Text source="/images/text/text6.png" --width="25%" --left="60%" --top="5%"/>
+  <Text source="/images/text/text7.png" --width="25%" --left="75%" --top="5%"/>
+  <Text source="/images/text/text8.png" --width="20%" --left="60%" --top="45%"/>
+  <Text source="/images/text/text9.png" --width="20%" --left="78%" --top="60%"/>
+  <Text source="/images/text/text10.png" --width="25%" --left="20%" --top="45%"/>
+  <Text source="/images/text/text11.png" --width="25%" --left="75%" --top="40%"/>
+  <Text source="/images/text/text12.png" --width="25%" --left="0%" --top="0%"/>
+  <Text source="/images/text/text13.png" --width="20%" --left="60%" --top="68%"/>
     <audio bind:this={audioButton}>
         <source src="/audio/HappyBirthdaySong.mov" />
     </audio>

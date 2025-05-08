@@ -19,6 +19,7 @@
                 backgroundR={255}
                 backgroundG={112}
                 backgroundB={112}
+                video="/video/video1.mp4"
             />
             <Present
                 width={20}
@@ -27,6 +28,7 @@
                 backgroundR={255}
                 backgroundG={255}
                 backgroundB={255}
+                video="/video/video2.mp4"
             />
             <Present
                 width={10}
@@ -35,14 +37,7 @@
                 backgroundR={109}
                 backgroundG={0}
                 backgroundB={112}
-            />
-            <Present
-                width={19}
-                angle={12}
-                colorOfRibbon={'lightgreen'}
-                backgroundR={255}
-                backgroundG={0}
-                backgroundB={255}
+                video="/video/video3.mp4"
             />
             <Present
                 width={31}
@@ -51,6 +46,7 @@
                 backgroundR={50}
                 backgroundG={0}
                 backgroundB={0}
+                video="/video/video5.mp4"
             />
             <Present
                 width={18}
@@ -59,6 +55,7 @@
                 backgroundR={150}
                 backgroundG={50}
                 backgroundB={0}
+                video="/video/video6.mp4"
             />
             <Present
                 width={25}
@@ -67,6 +64,7 @@
                 backgroundR={255}
                 backgroundG={0}
                 backgroundB={0}
+                video="/video/video7.mp4"
             />
             <Present
                 width={29}
@@ -75,7 +73,71 @@
                 backgroundR={255}
                 backgroundG={255}
                 backgroundB={255}
+                video="/video/video8.mp4"
             />
+          <Present
+              width={25}
+              angle={-9}
+              colorOfRibbon={'lightpink'}
+              backgroundR={50}
+              backgroundG={0}
+              backgroundB={0}
+              video="/video/video4.mp4"
+          />
+          <Present
+              width={31}
+              angle={5}
+              colorOfRibbon={'gold'}
+              backgroundR={150}
+              backgroundG={50}
+              backgroundB={0}
+              video="/video/video9.mp4"
+          />
+          <Present
+              width={19}
+              angle={10}
+              colorOfRibbon={'lightblue'}
+              backgroundR={109}
+              backgroundG={0}
+              backgroundB={112}
+              video="/video/video10.mp4"
+          />
+          <Present
+              width={31}
+              angle={-4}
+              colorOfRibbon={'gold'}
+              backgroundR={255}
+              backgroundG={112}
+              backgroundB={112}
+              video="/video/video11.mp4"
+          />
+          <Present
+              width={31}
+              angle={-4}
+              colorOfRibbon={'pink'}
+              backgroundR={255}
+              backgroundG={255}
+              backgroundB={255}
+              video="/video/video12.mp4"
+          />
+          <Present
+              width={31}
+              angle={-4}
+              colorOfRibbon={'beige'}
+              backgroundR={80}
+              backgroundG={20}
+              backgroundB={255}
+              video="/video/video13.mp4"
+          />
+          <Present
+              width={31}
+              angle={0}
+              colorOfRibbon={'lightblue'}
+              backgroundR={40}
+              backgroundG={170}
+              backgroundB={29}
+              video="/video/video14.mp4"
+          />
         </div>
     </section>
     <section class="snapSection imageGallery">
